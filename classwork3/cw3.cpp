@@ -17,7 +17,7 @@ public:
 	}
 	void Print()
 	{
-		cout << "Name: " << name << "\tsurname: " << surname << "\tAge: " << age << endl;
+		cout << "Name: " << name << "\tSurname: " << surname << "\tAge: " << age << endl;
 	}
 	~Student()
 	{
@@ -29,6 +29,6 @@ public:
 
 int main()
 {
-	Student obj1("Oleg", "Petrovich", 19);
+	Student obj1("Oleg", "Petrovich", 25);
 	obj1.Print();
 }
